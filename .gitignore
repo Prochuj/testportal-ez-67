@@ -1,0 +1,23 @@
+# Build / dependency artifacts
+node_modules/
+build/
+dist/
+.plasmo/
+.wrangler/
+*.log
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+
+# Secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Lockfile noise (we keep package-lock for reproducible installs)
+pnpm-lock.yaml

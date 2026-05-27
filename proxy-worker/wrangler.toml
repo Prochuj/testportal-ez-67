@@ -1,0 +1,8 @@
+name = "openai-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-15"
+
+# Optional shared secret. Uncomment and set via `wrangler secret put PROXY_TOKEN`
+# instead of writing it in plain text here.
+# [vars]
+# PROXY_TOKEN = ""
